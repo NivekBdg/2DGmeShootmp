@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b93185bc03897f4dbf03f3661c5f1b9, type: 3}
+  m_Name: VerticalHardEnemyWave
+  m_EditorClassIdentifier: 
+  spawnRotation: {x: 0, y: 0, z: 180, w: 0}
+  waves:
+  - enemyPrefab: {fileID: 114388884794089756, guid: 23394307eb528a9458e448967f3bab16,
+      type: 3}
+    spawnReferencePosition: {x: 8, y: 5.3, z: 0}
+    useSpecificXPosition: 0
+    configEnemy: {fileID: 11400000, guid: 10cc597f9dba5f946a4bbac1f99a1a83, type: 2}
+  - enemyPrefab: {fileID: 114388884794089756, guid: 23394307eb528a9458e448967f3bab16,
+      type: 3}
+    spawnReferencePosition: {x: 8, y: 5.3, z: 0}
+    useSpecificXPosition: 0
+    configEnemy: {fileID: 11400000, guid: 10cc597f9dba5f946a4bbac1f99a1a83, type: 2}
+  - enemyPrefab: {fileID: 114388884794089756, guid: 23394307eb528a9458e448967f3bab16,
+      type: 3}
+    spawnReferencePosition: {x: 8, y: 5.3, z: 0}
+    useSpecificXPosition: 0
+    configEnemy: {fileID: 11400000, guid: 10cc597f9dba5f946a4bbac1f99a1a83, type: 2}
+  cadence: 1
+  isHorizontal: 0
